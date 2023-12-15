@@ -1,13 +1,15 @@
 import pandas as pd
 import pickle
 
-DF_PATH = './data/food_info.csv'
+CORPUS_DF_PATH = './data/food_info.csv'
+# TEST_DF_PATH = './data/test_recipe.csv'
 CORPUS_EMBEDDING_PATH = './data/corpus_embeddings.pkl'
 INGREDIENT_LIST_EMBEDDING_PATH = './data/ingredient_list_embeddings.pkl'
 INGREDIENT_LIST_PATH = './data/ingredient_list.pkl'
 
 def load_data():
-    df = pd.read_csv(DF_PATH)
+    corpus_df = pd.read_csv(CORPUS_DF_PATH)
+    # test_df = pd.read_csv(TEST_DF_PATH)
 
     with open(INGREDIENT_LIST_PATH, 'rb') as f:
         ingredient_list = pickle.load(f)
@@ -19,11 +21,11 @@ def load_data():
         ingredient_list_embeddings = pickle.load(f)
 
 
-    return df, ingredient_list, corpus_embeddings, ingredient_list_embeddings
+    return corpus_df, ingredient_list, corpus_embeddings, ingredient_list_embeddings
 
 if __name__ == '__main__':
-    df, ingredient_list, corpus_embeddings, ingredient_list_embeddings = load_data()
-    print(df.head())
+    corpus_df, ingredient_list, corpus_embeddings, ingredient_list_embeddings = load_data()
+    print(corpus_df.head())
     print(ingredient_list[:10])
     print(corpus_embeddings[:10])
     print(ingredient_list_embeddings[:10])
