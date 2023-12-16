@@ -41,9 +41,7 @@
 
 ![image](https://github.com/hoorangyee/NLP-Project/assets/119475060/d7fd980f-a796-4c23-961c-48daf5f59275)
 
-![image](https://github.com/hoorangyee/NLP-Project/assets/119475060/17f18688-409a-4482-b2d4-a89c12a7720e)
-
-
+![image](https://github.com/hoorangyee/NLP-Project/assets/119475060/378be415-eaad-463c-b3c8-b856ced135f6)
 
 
 ### 재료 생성
@@ -71,11 +69,11 @@
 * 재료 조합을 고려하여 검색하는 것이 아닌, 절대적으로 많이/적게 등장하는 재료가 검색됨.
 
 ## Discussion
-1) 데이터셋을 더 다양한 source에서 수집한다면 더 다양한 레시피를 검색해서 제공할 수 있음.
+* 데이터셋을 더 다양한 source에서 수집한다면 더 다양한 레시피를 검색해서 제공할 수 있음.
 
-2) LLM을 Instruction-tunning등을 통해 좀 더 의도에 맞는 형태의 답변을 하도록 유도할 수 있음.
+* LLM을 Instruction-tunning등을 통해 좀 더 의도에 맞는 형태의 답변을 하도록 유도할 수 있음.
 
-3) 재료 목록과 단일 재료 간 비교가 아닌, 재료 목록과 재료 목록을 비교하여 둘 사이의 유사점 및 차이점을 통해 재료 추천을 하도록 모델을 개선할 수 있음.
+* 재료 목록과 단일 재료 간 비교가 아닌, 재료 목록과 재료 목록을 비교하여 둘 사이의 유사점 및 차이점을 통해 재료 추천을 하도록 모델을 개선할 수 있음.
 
 
 
