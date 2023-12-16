@@ -36,6 +36,7 @@
 ### 레시피 생성
 * 평가 기준을 세워, GPT-4에게 점수로 평가하도록 요청
 * ROUGE 점수 계산
+
 <p align="center">
   <img src="https://github.com/hoorangyee/NLP-Project/assets/119475060/63a180f3-bb39-4160-a030-90ebffb969f6"/>
 </p>
