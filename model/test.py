@@ -37,5 +37,5 @@ if __name__ == '__main__':
 
         result_df.loc[i] = [query, retrieved_recipe_top_k, retrieved_ingredient_top_k, retrieved_ingredient_bottom_k, model_response_recipe, model_response_ingredient]
     
-    result_df.to_csv('./data/result2.csv', index=False)
+    result_df.to_csv('./data/test_result.csv', index=False)
     
