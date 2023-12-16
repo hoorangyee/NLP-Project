@@ -13,27 +13,38 @@ class model:
     def __init__(self, embedder, client):
         self.embedder = embedder
         self.client = client
-    
+
     def retrieve(self, query, retrieve_item='recipe', top_k=5):
+            """
+            This function retrieves the top_k most similar items (either recipes or ingredients) to a given query from a dataset.
+        
+            Parameters:
+            - query (str): The query string to match against the dataset.
+            - retrieve_item (str): Specifies the type of item to retrieve. It can be either 'recipe' or 'ingredient'.
+            - top_k (int): The number of top results to return.
+        
+            The function first selects the appropriate dataset embeddings (for recipes or ingredients) based on the retrieve_item value. 
+            It then computes the cosine similarity scores between the query embedding and the dataset embeddings. 
+            The top_k items with the highest cosine similarity scores are identified as the top results.
+        
+            If 'ingredient' is specified as the retrieve_item, 
+            the function also identifies the bottom_k items (least similar) and removes any duplicates from the top and bottom results based on the query content.
+        
+            Returns:
+            - A list of indices representing the top_k most similar items. If retrieve_item is 'ingredient', it also returns the bottom_k least similar items as a second list.
+            """
         assert retrieve_item in ['recipe', 'ingredient']
         
         if retrieve_item == 'recipe':
-            kb_embeddings = corpus_embeddings
+            dataset_embeddings = corpus_embeddings
         else:
-            kb_embeddings = ingredient_list_embeddings
+            dataset_embeddings = ingredient_list_embeddings
 
         query_embedding = self.embedder.encode(query, convert_to_tensor=True)
-        cos_scores = util.pytorch_cos_sim(query_embedding, kb_embeddings)[0]
+        cos_scores = util.pytorch_cos_sim(query_embedding, dataset_embeddings)[0]
         cos_scores = cos_scores.cpu()
 
         top_results = np.argpartition(-cos_scores, range(top_k))[0:top_k]
-
-        # print("\n\n======================\n\n")
-        # print("Query:", query)
-        # print("\nTop 5 most similar sentences in corpus:")
-
-        # for idx in top_results[0:top_k]:
-        #     print(df['name'][idx.item()], "(Score: %.4f)" % (cos_scores[idx]))
 
         if retrieve_item != 'recipe':
             bottom_results = np.argpartition(cos_scores, range(top_k))[0:top_k]
