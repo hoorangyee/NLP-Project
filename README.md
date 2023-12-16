@@ -51,9 +51,13 @@
 ### 재료 생성
 * 평가 기준을 세워, GPT-4에게 점수로 평가하도록 요청
 
-![image](https://github.com/hoorangyee/NLP-Project/assets/119475060/0fdb99e5-4fd8-482f-8140-bab1a529d12e)
+<p align="center">
+  <img src="https://github.com/hoorangyee/NLP-Project/assets/119475060/0fdb99e5-4fd8-482f-8140-bab1a529d12e"/>
+</p>
 
-![image](https://github.com/hoorangyee/NLP-Project/assets/119475060/3881e865-be12-490c-b99f-fbfbc2543a41)
+<p align="center">
+  <img src="https://github.com/hoorangyee/NLP-Project/assets/119475060/3881e865-be12-490c-b99f-fbfbc2543a41"/>
+</p>
 
 ## Conclusion
 ### 레시피 추천:
