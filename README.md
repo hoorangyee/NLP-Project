@@ -27,7 +27,7 @@
 3) Retriever를 통해 유사한 재료, 유사하지 않은 재료 검색
 4) LLM에 top-k의 검색된 레시피와 top-k(유사한 k개), bottom-k(유사하지 않은 재료)의 검색된 재료 입력
 5) LLM을 통해 추천 레시피 및 추천 재료 생성
-\n
+
 * Transformer Encoder: ko-sroberta-multitask(https://huggingface.co/jhgan/ko-sroberta-multitask)
 * Retriever: Cosine similarity 기반
 * LLM: ChatGPT(GPT-3.5-turbo)
