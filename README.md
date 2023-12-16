@@ -40,10 +40,13 @@
   <img src="https://github.com/hoorangyee/NLP-Project/assets/119475060/63a180f3-bb39-4160-a030-90ebffb969f6"/>
 </p>
 
-![image](https://github.com/hoorangyee/NLP-Project/assets/119475060/d7fd980f-a796-4c23-961c-48daf5f59275)
+<p align="center">
+  <img src="https://github.com/hoorangyee/NLP-Project/assets/119475060/d7fd980f-a796-4c23-961c-48daf5f59275"/>
+</p>
 
-![image](https://github.com/hoorangyee/NLP-Project/assets/119475060/378be415-eaad-463c-b3c8-b856ced135f6)
-
+<p align="center">
+  <img src="https://github.com/hoorangyee/NLP-Project/assets/119475060/378be415-eaad-463c-b3c8-b856ced135f6"/>
+</p>
 
 ### 재료 생성
 * 평가 기준을 세워, GPT-4에게 점수로 평가하도록 요청
