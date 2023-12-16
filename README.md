@@ -37,10 +37,8 @@
 * 평가 기준을 세워, GPT-4에게 점수로 평가하도록 요청
 * ROUGE 점수 계산
 
-<레시피 생성 평가 기준>
 ![image](https://github.com/hoorangyee/NLP-Project/assets/119475060/63a180f3-bb39-4160-a030-90ebffb969f6)
 
-<레시피 생성 평가 결과>
 ![image](https://github.com/hoorangyee/NLP-Project/assets/119475060/d7fd980f-a796-4c23-961c-48daf5f59275)
 
 ![image](https://github.com/hoorangyee/NLP-Project/assets/119475060/17f18688-409a-4482-b2d4-a89c12a7720e)
@@ -51,10 +49,8 @@
 ### 재료 생성
 * 평가 기준을 세워, GPT-4에게 점수로 평가하도록 요청
 
-<재료 생성 평가 기준>
 ![image](https://github.com/hoorangyee/NLP-Project/assets/119475060/0fdb99e5-4fd8-482f-8140-bab1a529d12e)
 
-<재료 생성 평가 결과>
 ![image](https://github.com/hoorangyee/NLP-Project/assets/119475060/3881e865-be12-490c-b99f-fbfbc2543a41)
 
 ## Conclusion
