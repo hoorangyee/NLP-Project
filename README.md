@@ -11,7 +11,7 @@
 ## Task
 ![task](https://github.com/hoorangyee/NLP-Project/assets/119475060/82307206-a932-4abc-bf4d-7e2e8da7e13c)
 * Input: 보유중인 재료 목록
-* Output: 1) 해당 재료들을 활용하여 만들 수 있는 음식 레시피 2) 보충하면 좋은 재료
+* Output: (1) 해당 재료들을 활용하여 만들 수 있는 음식 레시피 (2) 보충하면 좋은 재료
 
 ## Data
 
