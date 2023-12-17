@@ -60,7 +60,7 @@
   <img src="https://github.com/hoorangyee/NLP-Project/assets/119475060/3881e865-be12-490c-b99f-fbfbc2543a41"/>
 </p>
 
-## Conclusion
+## Results
 ### 레시피 추천:
 * 대부분 보유 재료와 검색한 레시피 목록을 보고, 둘을 적절히 결합하여 보유 재료에 가장 적합한 레시피를 추천해줌.
 
