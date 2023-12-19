@@ -28,7 +28,7 @@
 
 * Transformer Encoder: ko-sroberta-multitask(https://huggingface.co/jhgan/ko-sroberta-multitask)
 * Retriever: Cosine similarity 기반
-* LLM: ChatGPT(GPT-3.5-turbo)
+* LLM: GPT-3.5-turbo
 
 ## Evaluation
 ### 레시피 생성
