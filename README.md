@@ -27,7 +27,7 @@
 5) LLM을 통해 추천 레시피 및 추천 재료 생성
 
 * Transformer Encoder: ko-sroberta-multitask(https://huggingface.co/jhgan/ko-sroberta-multitask)
-* Retriever: Cosine similarity 기반
+* Retriever: bert-base dense retriever
 * LLM: GPT-3.5-turbo
 
 ## Evaluation
